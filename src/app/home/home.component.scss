@@ -1,0 +1,21 @@
+:host{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.body{
+    display: flex;
+    flex:1;
+}
+
+.footer{
+    display: flex;
+    //flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-item-active{
+    color:blue;
+}

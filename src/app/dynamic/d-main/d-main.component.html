@@ -1,0 +1,6 @@
+<div>
+    <div *ngFor="let l of links" [routerLink]="['link', l.id]">
+        Link {{l.id}}
+    </div>
+</div>
+<router-outlet></router-outlet>
